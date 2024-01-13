@@ -1,7 +1,7 @@
 from cog import BaseModel, Input, Path
 from ssd_train import train
 
-MODEL_NAME = "segmind/SSD-1B"
+MODEL_NAME = "stabilityai/stable-diffusion-xl-base-1.0"
 MODEL_CACHE = "model-cache"
 
 class Predictor(BaseModel):
