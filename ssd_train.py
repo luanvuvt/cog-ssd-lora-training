@@ -7,7 +7,7 @@ from preprocess import preprocess
 """
 Wrapper around actual trainer.
 """
-MODEL_NAME = "segmind/SSD-1B"
+MODEL_NAME = "stabilityai/stable-diffusion-xl-base-1.0"
 MODEL_CACHE = "model-cache"
 OUTPUT_DIR = "training_out"
 
